@@ -12,7 +12,7 @@ export default function Header() {
                         className="float-start"
                     />
                 </a>
-                <ul className="nav">
+                <ul className="nav d-none d-md-flex">
                     <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="/">Home</a>
                     </li>

@@ -21,10 +21,11 @@ export default function Home() {
                     <Image
                         src={logo}
                         alt="YES employment services logo"
+                        className="d-none d-md-inline"
                     />
                     <h1>delivering better business results</h1>
-                    <button className="btn btn-lg btn-primary mr-2">I'm looking to hire</button>
-                    <button className="btn btn-lg btn-secondary">I'm looking for a new role</button>
+                    <button className="btn btn-lg btn-primary mr-2 mb-3">I'm looking to hire</button>
+                    <button className="btn btn-lg btn-secondary mb-3">I'm looking for a new role</button>
                 </div>
             </div>
 
