@@ -1,0 +1,254 @@
+$primary: #385e9d;
+$secondary: #ffffff;
+$light: #e3e3e3;
+
+@font-face {
+    font-family: 'Kelson Normal';
+    src: url(../../assets/fonts/KelsonSans-Normal.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kelson Light';
+    src: url(../../assets/fonts/KelsonSans-Light.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Kelson Bold';
+    src: url(../../assets/fonts/KelsonSans-Bold.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Kelson Light;
+    letter-spacing: 1px;
+}
+
+h1 { 
+    font-family: Kelson Bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 1.5rem !important;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+
+    img {
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+.nav-item a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    &:hover,
+    &:focus {
+        color: rgba($color: white, $alpha: 0.5) !important;
+    }
+}
+
+#home-page-background-image {
+    background-image: url(../../assets/images/black-dot.png);
+    position: absolute;
+    left: 0;
+    background-size: 5px;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+    background-repeat: repeat;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+#home-page-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 125%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+#home-page-content {
+    position: fixed;
+    max-width: 600px;
+    z-index: 3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    h1 {
+        margin: 2.5rem 0;
+        font-size: 64px;
+        color: #FFFFFF;
+    }
+
+    .btn-lg.btn-primary {
+        margin-right: 0.5rem;
+    }
+}
+
+.btn-secondary {
+    &:hover {
+        background-color: #e7e7e7 !important;
+        border-color: #e7e7e7 !important;
+    }
+}
+
+.btn-light:hover {
+    background-color: #cfcfcf !important;
+    border-color: #cfcfcf !important;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;    
+    text-align: center;
+    z-index: 15;
+    color: white;
+    width: 100%;
+    background-color: #282828;
+
+    p {
+        font-size: 12px;
+        margin: 7px 0;
+
+        a {
+            color: $secondary;
+            font-weight: bold;
+            &:hover {
+                transition: 0.15s;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.body-content-section {
+    .container {
+        margin: 4rem auto;
+        max-width: 960px;
+        &.container-background-blue {
+            background-color: $primary;
+            max-width: 100%;
+            margin-top: 0;
+            margin-bottom: 0 !important;
+            .row {
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 4rem 0;
+                color: white;
+            }
+        }
+        &:last-child {
+            margin-bottom: calc(4rem + 32px);
+        }
+        &:last-child.container-background-blue {
+            margin-bottom: calc(0rem + 32px) !important;
+        }
+    }
+}
+
+#about-body #page-hero { 
+    background-image: url(../../assets/images/home-hero-image.jpeg);
+    min-height: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    &::before {
+        content: '';
+        background-color: black;
+        position: absolute;
+        left: 0;
+        background-size: 5px;
+        top: 0;
+        width: 100%;
+        opacity: 0.3;
+        height: 100%;
+        z-index: 1;
+    }
+    &::after {
+        content: '';
+        z-index: 2;
+        background-image: url(../../assets/images/black-dot.png);
+        position: absolute;
+        left: 0;
+        background-size: 5px;
+        top: 0;
+        width: 100%;
+        opacity: 0.5;
+        height: 100%;
+    }
+    h1 {
+        z-index: 3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+}
+
+#employer-what-we-do-cards .what-we-do-card .what-we-do-card-content{
+    border: 1px solid #b9b9b9;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    transition: all 0.3s;
+
+    h4 {
+        font-weight: bold;
+        margin: 0;
+        font-size: 16px !important;
+        font-weight: bold;
+    }
+
+    .what-we-do-title-break {
+        width: 20px;
+        height: 2px;
+        background-color: #b9b9b9;
+        margin: 10px auto;
+    }
+
+    p {
+        font-size: 15px !important;
+        margin: 0;
+    }
+
+    &:hover {
+        background-color: #f5f5f5;
+        opacity: 0.9;
+        cursor: default !important;
+    }
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
