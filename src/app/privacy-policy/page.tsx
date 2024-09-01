@@ -1,5 +1,6 @@
 import Header from '../includes/header';
 import Footer from '../includes/footer';
+import MobileHeader from "@/app/includes/mobile-header";
 
 export default function PrivacyPolicy() {
   return (
@@ -7,6 +8,7 @@ export default function PrivacyPolicy() {
         <main id="about-body">
 
             <Header />
+            <MobileHeader />
 
             <div id="page-hero">
                 <h1>Privacy Policy</h1>

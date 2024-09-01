@@ -2,6 +2,7 @@ import Header from '../includes/header';
 import Footer from '../includes/footer';
 import Image from 'next/image'
 import candidatesImage from '../../assets/images/home-hero-image.jpeg';
+import MobileHeader from "@/app/includes/mobile-header";
 
 export default function Candidates() {
   return (
@@ -9,6 +10,7 @@ export default function Candidates() {
         <main id="about-body">
 
             <Header />
+            <MobileHeader />
 
             <div id="page-hero">
                 <h1>Candidates</h1>
@@ -17,15 +19,25 @@ export default function Candidates() {
             <div className="body-content-section">
                 <div className="container">
                     <div className="row d-flex align-items-center">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-md-6 mb-3">
                             <h2 className="fw-bold">New role? Register with YES</h2>
-                            <p>Over the years we’ve successfully placed IT & Digital candidates with clients in a variety of industries and sectors including hospitality, retail, manufacturing, insurance, live entertainment, Formula 1, travel, premier league football, property, higher education, not for profit, healthcare and charities amongst others.</p>
-                            <p>So, if you’re looking for a new role, why not submit your CV and register with YES. Whether it be permanent or contract work you’re after, we’ll get in touch to discuss your current situation and future aspirations to see if we can provide you with a suitable opportunity.</p>
-                            <p>We’ll also be happy to share with you current employment market conditions and advise on ways you may want to explore to help with your job search.</p>
-                            <p>For a confidential, no obligation discussion, please call us on <a href="tel:01252204613">01252 204613</a></p>
+                            <p>Over the years we’ve successfully placed IT & Digital candidates with clients in a
+                                variety of industries and sectors including hospitality, retail, manufacturing,
+                                insurance, live entertainment, Formula 1, travel, premier league football, property,
+                                higher education, not for profit, healthcare and charities amongst others.</p>
+                            <p>So, if you’re looking for a new role, why not submit your CV and register with YES.
+                                Whether it be permanent or contract work you’re after, we’ll get in touch to discuss
+                                your current situation and future aspirations to see if we can provide you with a
+                                suitable opportunity.</p>
+                            <p>We’ll also be happy to share with you current employment market conditions and advise on
+                                ways you may want to explore to help with your job search.</p>
+                            <p>You can contact YES by calling <a href="tel:01252 204613">01252 204613</a>, emailing <a
+                                href="mailto:info@youngsemployment.com">info@youngsemployment.com</a> or via the Contact
+                                Us tab.</p>
+                            <a className="btn btn-lg btn-primary" href="/contact-us">Contact Us</a>
                         </div>
                         <div className="col-12 col-md-6">
-                            <Image
+                        <Image
                                 src={candidatesImage}
                                 alt="YES employment services logo"
                                 className="rounded shadow"
@@ -36,7 +48,7 @@ export default function Candidates() {
                             />
                         </div>
                         <div className="col-12 text-center pt-5">
-                            <small><strong>Candidate Privacy</strong>: By giving us personal information you are consenting to us processing this for work finding purposes. For further details please refer to our Privacy Policy <a href="#">www.youngsemplyment.com/cm/policy</a>.</small>
+                            <small><strong>Candidate Privacy</strong>: By giving us personal information you are consenting to us processing this for work finding purposes. For further details please refer to our Privacy Policy <a href="/privacy-policy">www.youngsemplyment.com/privacy-policy</a>.</small>
                         </div>
                     </div>
                 </div>

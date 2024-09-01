@@ -51,6 +51,10 @@ header {
         max-width: 150px;
         height: auto;
     }
+
+    &.scrolling {
+        background-color: rgba(64,64,64,0.8);
+    }
 }
 
 .nav-item a {
@@ -167,6 +171,10 @@ footer {
                 padding: 4rem 0;
                 color: white;
             }
+            p a {
+                color: #FFFFFF;
+            }
+
         }
         &:last-child {
             margin-bottom: calc(4rem + 32px);
@@ -255,4 +263,29 @@ footer {
     margin-right: 0.5rem;
 }
 
+#mobile-menu-nav {
+    .navbar-toggler {
+        height: 32px;
+        width: 32px;
+
+        .navbar-toggler-bar {
+            height: 3px;
+            width: 100%;
+            background-color: white;
+
+            &:nth-child(2) {
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .nav-item {
+        text-align: center;
+        padding:8px 0;
+        border-bottom: 2px solid rgba(64, 64, 64, 0.45);
+        &:last-child {
+            border-bottom-width: 0 !important;
+        }
+    }
+}
 @import "node_modules/bootstrap/scss/bootstrap";

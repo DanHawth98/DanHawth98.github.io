@@ -1,5 +1,6 @@
 import Header from '../includes/header';
 import Footer from '../includes/footer';
+import MobileHeader from "@/app/includes/mobile-header";
 
 export default function About() {
   return (
@@ -7,6 +8,7 @@ export default function About() {
         <main id="about-body">
 
             <Header />
+            <MobileHeader />
 
             <div id="page-hero">
                 <h1>About Us</h1>
@@ -16,13 +18,16 @@ export default function About() {
                 <div className="container">
                     <div className="row d-flex justify-content-center">
                         <div className="text-center">
-                            <p>Wayne Young decided to start Young’s Employment Services following redundancy from his previous employer.</p>
-                            <p>YES aspire to be a trusted client and candidate centred, problem-solving partner for the IT & Digital community. Built on strong principles and extensive IT Recruitment experience having worked in his last role for over 23 years as a senior member of the team, Wayne will provide personal, honest, objective and transparent help and advice on a range of people, job and career related issues.</p>
-                            <p>He’s worked with clients from a wide range of industries including hospitality, retail, manufacturing, insurance, live entertainment, Formula 1, travel, premier league, property, higher education, not for profit, charity and healthcare amongst others. This experience with such a broad range of clients has given Wayne a reel feel and understanding of the many complexities and dynamics in the cultural, structural and operational environments that exist within different types of businesses and organisations.</p>
-                            <p>Whether it be start-up, SME or enterprise level, not for profit, private or public sector, highly regulated and process driven, mature or immature in good practice and governance, big teams or small teams, Wayne has successfully recruited IT & Digital resource from Service Desk to C-level and everything in between.</p>
+                            <p>Wayne Young created Young’s Employment Services following redundancy from his previous employer. Able to draw upon over 24 years extensive IT Recruitment experience, Wayne provides personal, honest, objective and transparent help and advice on people, job and career related issues.</p>
+
+                            <p>Clients have come from a wide range of industries including hospitality, retail, manufacturing, insurance, live entertainment, F1, premier league, property, travel, higher education, charity and healthcare amongst others. This has provided a deep understanding of the many differences in the culture, structure and operations within workplace environments and that’s invaluable when matching candidates with clients.</p>
+
+                            <p>Having successfully recruited IT & Digital resource from Service Desk to C-level and everything in between, YES is well placed to help with almost any requirement.</p>
+
+                            <p>YES aspires to be a trusted client and candidate centred, recruitment partner for the IT & Digital community. We’d love to hear from you if you require any assistance.</p>
                             <div className="pt-4">
-                                <button className="btn bgn-lg btn-primary mr-2">I'm looking to hire</button>
-                                <button className="btn bgn-lg btn-light">I'm looking for a new role</button>
+                                <button className="btn bgn-lg btn-primary mb-3 mr-2">I'm looking to hire</button>
+                                <button className="btn bgn-lg btn-light mb-3">I'm looking for a new role</button>
                             </div>
                         </div>
                     </div>

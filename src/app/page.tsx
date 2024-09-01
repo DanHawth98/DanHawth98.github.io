@@ -2,6 +2,7 @@ import Image from 'next/image'
 import logo from '../assets/images/logo-white.png';
 import Header from './includes/header';
 import Footer from './includes/footer';
+import MobileHeader from "@/app/includes/mobile-header";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <main>
 
             <Header />
+            <MobileHeader />
 
             <div>
                 <div id="home-page-background-image"></div>
