@@ -25,9 +25,12 @@ export default function Home() {
                         alt="YES employment services logo"
                         className="d-none d-md-inline"
                     />
-                    <h1>delivering better business results</h1>
-                    <button className="btn btn-lg btn-primary mr-2 mb-3">I'm looking to hire</button>
-                    <button className="btn btn-lg btn-secondary mb-3">I'm looking for a new role</button>
+                    <h1>
+                        {/*YOUNG’S EMPLOYMENT SERVICES<br/>*/}
+                        YOUR TRUSTED IT RECRUITMENT PARTNER
+                    </h1>
+                    <a href="/clients" className="btn btn-lg btn-primary mr-2 mb-3">I'm looking to hire</a>
+                    <a href="/candidates" className="btn btn-lg btn-secondary mb-3">I'm looking for a new role</a>
                 </div>
             </div>
 

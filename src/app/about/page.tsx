@@ -20,7 +20,7 @@ export default function About() {
                         <div className="text-center">
                             <p>Wayne Young created Young’s Employment Services following redundancy from his previous employer. Able to draw upon over 24 years extensive IT Recruitment experience, Wayne provides personal, honest, objective and transparent help and advice on people, job and career related issues.</p>
 
-                            <p>Clients have come from a wide range of industries including hospitality, retail, manufacturing, insurance, live entertainment, F1, premier league, property, travel, higher education, charity and healthcare amongst others. This has provided a deep understanding of the many differences in the culture, structure and operations within workplace environments and that’s invaluable when matching candidates with clients.</p>
+                            <p>Having worked with clients from a wide range of sectors including hospitality, retail, manufacturing, insurance, live entertainment, F1, premier league, property, travel, higher education, charity and healthcare amongst others. This has provided a deep understanding of the many differences in the culture, structure and operations within workplace environments and that’s invaluable when matching candidates with clients.</p>
 
                             <p>Having successfully recruited IT & Digital resource from Service Desk to C-level and everything in between, YES is well placed to help with almost any requirement.</p>
 

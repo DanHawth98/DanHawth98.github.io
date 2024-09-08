@@ -6,7 +6,7 @@ import MobileHeader from "@/app/includes/mobile-header";
 export default function ContactUs() {
   return (
     <>
-        <main id="about-body">
+        <main id="contact-us-body">
 
             <Header />
             <MobileHeader />
@@ -34,10 +34,8 @@ export default function ContactUs() {
 
                             <p>
                                 <strong>Tel:</strong> <a href="tel:01252 204613">01252 204613</a><br />
-                                <strong>Email:</strong> <a href="mailto:wayne@youngsemployment.com">wayne@youngsemployment.com</a>
+                                <strong>Email:</strong> <a href="mailto: info@youngsemployment.com"> info@youngsemployment.com</a>
                             </p>
-
-                            <p>If you would like us to contact you, please fill out the form.</p>
                         </div>
 
                         <div className="col-12 col-md-6">

@@ -1,13 +1,13 @@
 import Header from '../includes/header';
 import Footer from '../includes/footer';
 import Image from 'next/image'
-import candidatesImage from '../../assets/images/home-hero-image.jpeg';
+import clientImage from '../../assets/images/startup-593341_1920.jpg';
 import MobileHeader from "@/app/includes/mobile-header";
 
 export default function Employers() {
   return (
     <>
-        <main id="about-body">
+        <main id="clients-body">
 
             <Header />
             <MobileHeader />
@@ -25,7 +25,7 @@ export default function Employers() {
                         </div>
                         <div className="col-12 col-md-6">
                             <Image
-                                src={candidatesImage}
+                                src={clientImage}
                                 alt="YES employment services logo"
                                 className="rounded shadow"
                                 style={{

@@ -110,7 +110,7 @@ header {
 
     h1 {
         margin: 2.5rem 0;
-        font-size: 64px;
+        font-size: 52px;
         color: #FFFFFF;
     }
 
@@ -185,8 +185,7 @@ footer {
     }
 }
 
-#about-body #page-hero { 
-    background-image: url(../../assets/images/home-hero-image.jpeg);
+ #page-hero {
     min-height: 300px;
     position: relative;
     background-size: cover;
@@ -223,6 +222,19 @@ footer {
         transform: translate(-50%,-50%);
         color: white;
     }
+}
+
+#about-body #page-hero {
+    background-image: url(../../assets/images/home-hero-image.jpeg);
+}
+#clients-body #page-hero {
+    background-image: url(../../assets/images/city-4667143_1920.jpg);
+}
+#candidates-body #page-hero {
+    background-image: url(../../assets/images/office-2360063_1920.jpg);
+}
+#contact-us-body #page-hero {
+    background-image: url(../../assets/images/job-5382501_1920.jpg);
 }
 
 #employer-what-we-do-cards .what-we-do-card .what-we-do-card-content{

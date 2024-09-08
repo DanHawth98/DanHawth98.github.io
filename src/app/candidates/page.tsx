@@ -7,7 +7,7 @@ import MobileHeader from "@/app/includes/mobile-header";
 export default function Candidates() {
   return (
     <>
-        <main id="about-body">
+        <main id="candidates-body">
 
             <Header />
             <MobileHeader />
